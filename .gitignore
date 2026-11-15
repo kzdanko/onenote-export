@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Never commit credentials or exported notes
+token_cache.json
+config.json
+.onenote-export/
+out/
+export/
